@@ -1,7 +1,7 @@
 interface FilterLayoutProps {
   children: React.ReactNode;
   sidebar: React.ReactNode;
-  modal: React.ReactNode;
+  modal?: React.ReactNode;
 }
 
 export default function FilterLayout({
